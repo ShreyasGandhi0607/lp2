@@ -22,4 +22,5 @@ graph = {
     'D': {'B': 5, 'C': 1}
 }
 
+print("The shortest distance  is : ")
 print(djakstra(graph, 'A', 'D'))

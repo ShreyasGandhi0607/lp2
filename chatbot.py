@@ -23,6 +23,7 @@ def count():
         print("{0} !".format(counter))
         counter += 1
 
+
 def test():
     print("Let's test your programming knowledge.")
     print("Why do we use methods?")

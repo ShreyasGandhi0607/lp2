@@ -23,6 +23,7 @@ def solve_n_queens_util(board, col, n):
     return False
 
 def print_solution(board):
+    print("A solution exists and the solution is :")
     for row in board:
         print(row)
 
@@ -34,4 +35,9 @@ def solve_n_queens(n):
     print_solution(board)
     return True
 
-solve_n_queens(8)
+
+n = int(input("Enter the number of queens to solve nqueens problem"))
+
+
+solve_n_queens(n)
+

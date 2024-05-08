@@ -15,3 +15,4 @@ def job_schedule(jobs):
 
 jobs = [(1, 50, 2), (2, 10, 1), (3, 20, 2), (4, 30, 1), (5, 40, 3)]
 print(job_schedule(jobs))
+   

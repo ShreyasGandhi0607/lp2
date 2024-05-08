@@ -46,7 +46,7 @@ def a_star_search(start, goal, grid):
     return None
 
 start = (0, 0)
-goal = (3, 3)
+goal = (2,2)
 grid = [
     [0, 1, 2, 3],
     [1, 2, -1, 4],
@@ -55,4 +55,5 @@ grid = [
 ]
 
 path = a_star_search(start, goal, grid)
+print("Path to the goal from %s to %s:" % (start, goal))
 print(path)

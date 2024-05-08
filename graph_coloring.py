@@ -33,6 +33,7 @@ class Graph:
             print("Vertex", i, ":", "Color", color[i])
         return True
 
+
 g = Graph(5)
 g.add_edge(0, 1)
 g.add_edge(0, 2)

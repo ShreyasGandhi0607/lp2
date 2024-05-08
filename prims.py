@@ -26,3 +26,4 @@ while no_edge < N - 1:
     print(str(a) + "-" + str(b) + ":" + str(G[a][b]))
     selected_node[b] = True
     no_edge += 1
+   
